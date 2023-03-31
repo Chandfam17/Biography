@@ -1,0 +1,123 @@
+body {
+  background-color: lightgrey;
+}
+
+h1 {
+  position: absolute;
+  text-align: center;
+  left: 45%;
+  color: black;
+  background-color: lightgrey;
+  width: 200px;
+  height: 45px;
+}
+
+@keyframes example {
+  0% {
+    border-color: darkred;
+  }
+  25% {
+    border-color: white;
+  }
+  50% {
+    border-color: black;
+  }
+  100% {
+    border-color: darkgrey;
+  }
+}
+#pic {
+  position: absolute;
+  left: 29%;
+  top: 100px;
+  border-style: solid;
+  border-color: darkred;
+  border-width: 10px;
+  animation-name: example;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+h2 {
+  position: absolute;
+  top: 62%;
+  font-size: 18px;
+  font-family: Arial;
+  color: black;
+  left: 12%;
+}
+
+#life {
+  position: absolute;
+  top: 70%;
+  font-size: 25px;
+}
+
+#lhistory {
+  position: absolute;
+  top: 77%;
+  font-size: 17px;
+}
+
+h3 {
+  position: absolute;
+  top: 95%;
+  font-size: 25px;
+}
+
+#releases {
+  position: absolute;
+  top: 102%;
+}
+
+iframe {
+  position: absolute;
+  top: 118%;
+}
+
+#FB {
+  position: absolute;
+  top: 118%;
+  left: 72%;
+}
+
+#FBlogo {
+  position: absolute;
+  top: 126%;
+  left: 75%;
+}
+
+#insta {
+  position: absolute;
+  top: 126%;
+  left: 85%;
+}
+
+#YTpic {
+  position: absolute;
+  top: 126%;
+  left: 90%;
+}
+
+#youtubelink {
+  position: absolute;
+  top: 126%;
+  left: 80%;
+}
+
+h4 {
+  position: absolute;
+  top: 100%;
+  left: 60%;
+  font-size: 35px;
+}
+
+#email {
+  position: absolute;
+  top: 145%;
+  left: 50%;
+}
+
+ol {
+  list-style: square outside url("black.gif");
+}
